@@ -14,8 +14,9 @@ const bgColor = {
 }
 
 
-
+const redNumber = document.querySelector("r-value");
 const redSlider = document.querySelector("input.red");
+
 redSlider.addEventListener("change", (event)=>{
     bgColor.r = event.target.value;
     
@@ -23,8 +24,29 @@ redSlider.addEventListener("change", (event)=>{
 });
 
 
+
 function changeCircleColor(){
     const circleDiv = document.querySelector("div.circle");
     circleDiv.style.backgroundColor = bgColor.toCSS(); 
-    
 }
+
+
+
+const greenSlider = document.querySelector("input.green");
+greenSlider.addEventListener("change", )
+
+
+
+
+
+// greenSlider.addEventListener("change", (event)=>{
+//     bgColor.g = event.target.value;
+    
+//     changeCircleColor2();
+// });
+
+// function changeCircleColor2(){
+//     const circleDiv = document.querySelector("div.circle");
+//     circleDiv.style.backgroundColor = bgColor.toCSS(); 
+    
+// }
